@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgClass"
+            android:contentDescription="@string/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/workoutclass"
+            android:padding="15sp" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtClass"
+            android:textSize="30sp"
+            />
+        <ImageView
+            android:id="@+id/imgEquipment"
+            android:contentDescription="@string/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/equipment"
+            android:padding="15sp" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEquipment"
+            android:textSize="30sp"
+            />
+        <ImageView
+            android:id="@+id/imgFacility"
+            android:contentDescription="@string/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/facility"
+            android:padding="15sp" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtFacility"
+            android:textSize="30sp"
+            />
+        <ImageView
+            android:id="@+id/imgPoster"
+            android:contentDescription="@string/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/poster"
+            android:padding="15sp" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtPoster"
+            android:textSize="30sp"
+            />
+
+
+
+    </TableRow>
+</TableLayout>
