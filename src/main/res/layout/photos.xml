@@ -2,19 +2,22 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
     <TableRow>
+
         <ImageView
             android:id="@+id/imgClass"
-            android:contentDescription="@string/txtDescription"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:src="@drawable/workoutclass"
-            android:padding="15sp" />
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            android:src="@drawable/workout" />
+
         <TextView
             android:layout_width="600dp"
             android:layout_height="wrap_content"
             android:text="@string/txtClass"
-            android:textSize="30sp"
-            />
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
         <ImageView
             android:id="@+id/imgEquipment"
             android:contentDescription="@string/txtDescription"
@@ -28,6 +31,8 @@
             android:text="@string/txtEquipment"
             android:textSize="30sp"
             />
+    </TableRow>
+    <TableRow>
         <ImageView
             android:id="@+id/imgFacility"
             android:contentDescription="@string/txtDescription"
@@ -41,6 +46,8 @@
             android:text="@string/txtFacility"
             android:textSize="30sp"
             />
+    </TableRow>
+    <TableRow>
         <ImageView
             android:id="@+id/imgPoster"
             android:contentDescription="@string/txtDescription"
@@ -52,10 +59,6 @@
             android:layout_width="600dp"
             android:layout_height="wrap_content"
             android:text="@string/txtPoster"
-            android:textSize="30sp"
-            />
-
-
-
+            android:textSize="30sp" />
     </TableRow>
 </TableLayout>

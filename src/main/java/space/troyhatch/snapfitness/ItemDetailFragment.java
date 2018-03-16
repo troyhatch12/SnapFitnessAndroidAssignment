@@ -7,7 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.webkit.WebView;
 
 import space.troyhatch.snapfitness.dummy.DummyContent;
 
@@ -60,8 +60,14 @@ public class ItemDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_detail, container, false);
 
         // Show the dummy content as text in a TextView.
-        if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.details);
+        if (mItem.id.equals("1")) {
+            ((WebView)rootView.findViewById(R.id.item_detail)).loadUrl(mItem.details);
+        }
+        if (mItem.id.equals("2")){
+            rootView = inflater.inflate(R.layout.costs, container, false);
+        }
+        if (mItem.id.equals("3")){
+            rootView = inflater.inflate(R.layout.photos, container, false);
         }
 
         return rootView;

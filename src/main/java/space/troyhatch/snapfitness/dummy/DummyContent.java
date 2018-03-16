@@ -27,9 +27,9 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
-        }
+        addItem(new DummyItem("1", "Web Site", "https://www.goldsgym.com/"));
+        addItem(new DummyItem("2", "Costs"));
+        addItem(new DummyItem("3", "Photos"));
     }
 
     private static void addItem(DummyItem item) {
@@ -63,6 +63,13 @@ public class DummyContent {
             this.content = content;
             this.details = details;
         }
+
+        public DummyItem(String id, String content) {
+            this.id = id;
+            this.content = content;
+            this.details = "";
+        }
+
 
         @Override
         public String toString() {

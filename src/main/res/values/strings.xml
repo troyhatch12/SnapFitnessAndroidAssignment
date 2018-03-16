@@ -2,8 +2,15 @@
     <string name="app_name">Snap Fitness</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="txtDescription">Gym Image</string>
-    <string name="txtClass">Envigorating and infomative classes taught by world-class instructors</string>
+    <string name="txtClass">Invigorating and informative classes taught by world-class instructors</string>
     <string name="txtFacility">Large, open facility with everything you could need in a gym!</string>
     <string name="txtPoster">A welcoming and supportive atmosphere</string>
     <string name="txtEquipment">State-of-the-art equipment!</string>
+    <string name="txtTitle">Snap Fitness Pricing</string>
+    <string name="txtInfo">Join us for a workout experience that is guaranteed to change your view on fitness!</string>
+    <string name="txtYouth">Youth (ages 14-17): $25</string>
+    <string name="txtAdult">Adult (18 and over): $50</string>
+    <string name="txtFamily">Family/Household: $75</string>
+    <string name="txtSenior">Active Senior: $50</string>
+
 </resources>
