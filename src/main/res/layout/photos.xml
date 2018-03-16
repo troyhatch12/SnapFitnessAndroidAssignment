@@ -1,64 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:stretchColumns="1">
     <TableRow>
 
         <ImageView
-            android:id="@+id/imgClass"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/txtDescription"
-            android:padding="15sp"
-            android:src="@drawable/workout" />
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/workout" />
 
         <TextView
-            android:layout_width="600dp"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
             android:text="@string/txtClass"
-            android:textSize="30sp" />
+            android:textSize="15sp" />
     </TableRow>
     <TableRow>
+
         <ImageView
             android:id="@+id/imgEquipment"
+            android:layout_width="300dp"
+            android:layout_height="109dp"
             android:contentDescription="@string/txtDescription"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:src="@drawable/equipment"
-            android:padding="15sp" />
+            android:padding="15sp"
+            android:src="@drawable/equipment" />
+
         <TextView
             android:layout_width="600dp"
-            android:layout_height="wrap_content"
+            android:layout_height="61dp"
             android:text="@string/txtEquipment"
-            android:textSize="30sp"
-            />
+            android:textSize="15sp" />
     </TableRow>
     <TableRow>
+
         <ImageView
             android:id="@+id/imgFacility"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
             android:contentDescription="@string/txtDescription"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:src="@drawable/facility"
-            android:padding="15sp" />
+            android:padding="15sp"
+            android:src="@drawable/facility" />
+
         <TextView
             android:layout_width="600dp"
-            android:layout_height="wrap_content"
+            android:layout_height="108dp"
             android:text="@string/txtFacility"
-            android:textSize="30sp"
-            />
+            android:textSize="15sp" />
     </TableRow>
     <TableRow>
+
         <ImageView
             android:id="@+id/imgPoster"
+            android:layout_width="300dp"
+            android:layout_height="113dp"
             android:contentDescription="@string/txtDescription"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:src="@drawable/poster"
-            android:padding="15sp" />
+            android:padding="15sp"
+            android:src="@drawable/poster" />
         <TextView
             android:layout_width="600dp"
             android:layout_height="wrap_content"
             android:text="@string/txtPoster"
-            android:textSize="30sp" />
+            android:textSize="15sp" />
     </TableRow>
 </TableLayout>

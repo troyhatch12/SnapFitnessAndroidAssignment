@@ -2,7 +2,7 @@
     <string name="app_name">Snap Fitness</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="txtDescription">Gym Image</string>
-    <string name="txtClass">Invigorating and informative classes taught by world-class instructors</string>
+    <string name="txtClass">Classes taught by world-class instructors</string>
     <string name="txtFacility">Large, open facility with everything you could need in a gym!</string>
     <string name="txtPoster">A welcoming and supportive atmosphere</string>
     <string name="txtEquipment">State-of-the-art equipment!</string>
